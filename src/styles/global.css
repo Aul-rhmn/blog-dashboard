@@ -1,0 +1,49 @@
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .bg-light {
+    background-color: #444 !important;
+  }
+  
+  .dark-mode .text-muted {
+    color: #aaa !important;
+  }
+  
+  .dark-mode .card {
+    background-color: #444;
+    border-color: #555;
+  }
+  
+  .dark-mode .table {
+    color: #fff;
+  }
+  
+  .dark-mode .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .dark-mode .form-control {
+    background-color: #555;
+    color: #fff;
+    border-color: #666;
+  }
+  
+  .dark-mode .form-control:focus {
+    background-color: #666;
+    color: #fff;
+  }
+  
+  .sidebar {
+    min-height: 100vh;
+    width: 250px;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
